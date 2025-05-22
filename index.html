@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cotações</title>
+
+    <link rel="stylesheet" href="assets/vendor/slick-theme.min.css" />
+    <link rel="stylesheet" href="assets/vendor/slick.min.css" />
+    <link rel="stylesheet" href="assets/vendor/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/import.dist.css" />
+  </head>
+
+  <body>
+    <div class="swiper mySwiper swiper-cotacoes">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="content-cota">
+            <div class="ticker">
+              <h3>ALZR11</h3>
+            </div>
+
+            <div class="variation-info">
+              <div class="variation">
+                <p>Valor</p>
+                <span>R$ 10,05</span>
+              </div>
+
+              <div class="variation">
+                <p>Variação</p>
+                <span>0,02 (0,19%)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="content-cota">
+            <div class="ticker">
+              <h3>IFIX</h3>
+            </div>
+
+            <div class="variation-info">
+              <div class="variation">
+                <p>Valor</p>
+                <span>R$ 3,426</span>
+              </div>
+
+              <div class="variation">
+                <p>Variação</p>
+                <span>-0,92 (-0,02%)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+      });
+    </script>
+
+    <script src="assets/vendor/jquery.min.js"></script>
+    <script src="assets/vendor/slick.min.js"></script>
+    <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

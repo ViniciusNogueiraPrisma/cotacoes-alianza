@@ -1,0 +1,420 @@
+
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-ExtraLight.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-ExtraLight.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-ExtraLightItalic.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-ExtraLightItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-Light.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-Light.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-LightItalic.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-LightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-Book.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-Book.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-BookItalic.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-BookItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-Regular.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-RegularItalic.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-Medium.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-MediumItalic.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-SemiBold.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-SemiBoldItalic.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-Bold.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-BoldItalic.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-Black.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-Black.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-BlackItalic.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-BlackItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-UltraBlack.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-UltraBlack.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url("../fonts/Quatro/Quatro-UltraBlackItalic.ttf") format("truetype"),
+  url("../fonts/Quatro/Quatro-UltraBlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+}
+
+// ICOMOON ===========================
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?1olr0v');
+	src: url('../fonts/icomoon.eot?1olr0v#iefix') format('embedded-opentype'),
+		   url('../fonts/icomoon.ttf?1olr0v') format('truetype'),
+		   url('../fonts/icomoon.woff?1olr0v') format('woff'),
+		   url('../fonts/icomoon.svg?1olr0v#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+  }
+  
+  [class^="icon-"],
+  [class*=" icon-"] {
+	  font-family: 'icomoon' !important;
+	  speak: never;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-variant: normal;
+	  text-transform: none;
+	  line-height: 1;
+  
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-video:before {
+	content: "\e900";
+  }
+  
+  .icon-tooltip:before {
+	content: "\e901";
+  }
+  
+  .icon-sustentabilidade:before {
+	content: "\e902";
+  }
+  
+  .icon-relgio:before {
+	content: "\e903";
+  }
+  
+  .icon-calendario:before {
+	content: "\e904";
+  }
+  
+  .icon-show:before {
+	content: "\e905";
+  }
+  
+  .icon-print:before {
+	content: "\e906";
+  }
+  
+  .icon-notificao .path1:before {
+	content: "\e907";
+  }
+  
+  .icon-notificao .path2:before {
+	content: "\e908";
+	margin-left: -1em;
+  }
+  
+  .icon-notificao .path3:before {
+	content: "\e909";
+	margin-left: -1em;
+  }
+  
+  .icon-nav:before {
+	content: "\e90a";
+  }
+  
+  .icon-hide:before {
+	content: "\e90b";
+  }
+  
+  .icon-fonte-menor:before {
+	content: "\e90c";
+  }
+  
+  .icon-fonte-maior:before {
+	content: "\e90d";
+  }
+  
+  .icon-filter:before {
+	content: "\e90e";
+  }
+  
+  .icon-email:before {
+	content: "\e90f";
+  }
+  
+  .icon-download:before {
+	content: "\e910";
+  }
+  
+  .icon-contraste:before {
+	content: "\e911";
+  }
+  
+  .icon-compartilhar:before {
+	content: "\e912";
+  }
+  
+  .icon-busca:before {
+	content: "\e913";
+  }
+  
+  .icon-alertas:before {
+	content: "\e914";
+  }
+  
+  .icon-radio-square-selected .path1:before {
+	content: "\e915";
+  }
+  
+  .icon-radio-square-selected .path2:before {
+	content: "\e916";
+	margin-left: -1em;
+  }
+  
+  .icon-radio-square:before {
+	content: "\e917";
+  }
+  
+  .icon-radio-selected:before {
+	content: "\e918";
+  }
+  
+  .icon-radio:before {
+	content: "\e919";
+  }
+  
+  .icon-negativo:before {
+	content: "\e91a";
+  }
+  
+  .icon-menos:before {
+	content: "\e91b";
+  }
+  
+  .icon-mais:before {
+	content: "\e91c";
+  }
+  
+  .icon-correto:before {
+	content: "\e91d";
+  }
+  
+  .icon-btn-plus-selected:before {
+	content: "\e91e";
+  }
+  
+  .icon-btn-plus:before {
+	content: "\e91f";
+  }
+  
+  .icon-btn-less:before {
+	content: "\e920";
+  }
+  
+  .icon-btn-less--selected:before {
+	content: "\e921";
+  }
+  
+  .icon-youtube-filled:before {
+	content: "\e922";
+  }
+  
+  .icon-twitter:before {
+	content: "\e923";
+  }
+  
+  .icon-outlook .path1:before {
+	content: "\e924";
+  }
+  
+  .icon-outlook .path2:before {
+	content: "\e925";
+	margin-left: -1em;
+  }
+  
+  .icon-outlook .path3:before {
+	content: "\e926";
+	margin-left: -1em;
+  }
+  
+  .icon-linkedin-filled:before {
+	content: "\e927";
+  }
+  
+  .icon-instagram-outline:before {
+	content: "\e928";
+  }
+  
+  .icon-instagram-filled:before {
+	content: "\e929";
+  }
+  
+  .icon-gmail .path1:before {
+	content: "\e92a";
+  }
+  
+  .icon-gmail .path2:before {
+	content: "\e92b";
+	margin-left: -1em;
+  }
+  
+  .icon-gmail .path3:before {
+	content: "\e92c";
+	margin-left: -1em;
+  }
+  
+  .icon-facebook-filled:before {
+	content: "\e92d";
+  }
+  
+  .icon-esquerda:before {
+	content: "\e92e";
+  }
+  
+  .icon-direita:before {
+	content: "\e92f";
+  }
+  
+  .icon-cima:before {
+	content: "\e930";
+  }
+  
+  .icon-baixo:before {
+	content: "\e931";
+  }
+  
+  .icon-up-value:before {
+	content: "\e932";
+  }
+  
+  .icon-apresentao:before {
+	content: "\e933";
+  }
+  
+  .icon-audio:before {
+	content: "\e934";
+  }
+  
+  .icon-diamond:before {
+	content: "\e935";
+  }
+  
+  .icon-doc:before {
+	content: "\e936";
+  }
+  
+  .icon-energy:before {
+	content: "\e937";
+  }
+  
+  .icon-eolica:before {
+	content: "\e938";
+  }
+  
+  .icon-excel:before {
+	content: "\e939";
+  }
+  
+  .icon-linkedin:before {
+	content: "\e93a";
+  }
+  
+  .icon-pdf:before {
+	content: "\e93b";
+  }

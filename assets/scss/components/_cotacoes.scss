@@ -1,0 +1,47 @@
+.swiper-cotacoes {
+  h3 {
+    color: #fdfdfd;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    color: #fdfdfd;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+
+  span {
+    color: #fdfdfd;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.swiper-wrapper {
+  border: 1px solid red;
+
+  .swiper-slide {
+    background-color: red;
+    width: 300px !important;
+    border: 1px solid yellow;
+
+    .content-cota {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+
+      .variation-info {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+      }
+    }
+  }
+}
