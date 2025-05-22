@@ -1,7 +1,12 @@
 .swiper-cotacoes {
+  * {
+    font-family: "Montserrat", sans-serif;
+  }
+
   h3 {
     color: #fdfdfd;
     font-size: 18px;
+    font-weight: 600;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -9,7 +14,9 @@
 
   p {
     color: #fdfdfd;
-    font-size: 18px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 20px;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -17,7 +24,8 @@
 
   span {
     color: #fdfdfd;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -25,17 +33,23 @@
 }
 
 .swiper-wrapper {
-  border: 1px solid red;
+  justify-content: center;
+
+  @media (max-width: 767px) {
+    justify-content: unset;
+  }
 
   .swiper-slide {
-    background-color: red;
     width: 300px !important;
-    border: 1px solid yellow;
+
+    @media (max-width: 767px) {
+      width: 100% !important;
+    }
 
     .content-cota {
       display: flex;
       align-items: center;
-      gap: 32px;
+      gap: 28px;
 
       .variation-info {
         display: flex;
