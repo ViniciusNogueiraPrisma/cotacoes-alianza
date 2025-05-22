@@ -58,6 +58,10 @@ html {
   .swiper-slide {
     width: 300px !important;
 
+    // @media(max-width: 1199px) {
+    //     width: ;
+    // }
+
     @media (max-width: 767px) {
       width: 100% !important;
     }
